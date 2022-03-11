@@ -1,22 +1,62 @@
-body {background-image: url(Images/PaperBackground.svg);
+body {
+        background-image: url(Images/PaperBackground.svg);
         background-repeat: repeat-y;
-        background-size: cover;
+
         }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: Poppins, sans-serif;
     margin:0;
-}
+    }
 
 h1{
     font-size: 8rem;
-}
+    }
 
 h2{
     font-size: 4rem;
+    }
+
+h3{
+    font-size: 2rem;
 }
 
-.HeroSection{padding-left: 12%;
-            padding-right: 12%;
-            padding-top: 4%;
+.HeroSection{
+            margin-left: 6rem;
+            margin-right: 2rem;
+            margin-top: 6rem;
+            border-color: #1d3647;
+            border-width: 1rem;
+            border-style: double;
+            padding:2rem;
+            background-image: url(Images/catInSpace.svg);
+            background-size: 100%;
+            background-repeat: no-repeat;
             }
+
+nav ul{
+        list-style-type: none;
+        }
+
+nav li {
+        display: inline;
+        background-color: cadetblue;
+        padding:.25em;
+        border-radius: 1em;
+    }
+
+li {
+    font-family: Poppins, sans-serif;
+    }
+
+nav ul a{
+    text-decoration: none;
+    text-decoration-color: beige;
+    text-emphasis-color: beige;
+}
+
+.margins{
+    margin-left: 8rem;
+    margin-right:2rem;
+    margin-top: 1rem;
+}
