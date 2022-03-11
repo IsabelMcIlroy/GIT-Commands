@@ -60,3 +60,11 @@ nav ul a{
     margin-right:2rem;
     margin-top: 1rem;
 }
+
+p {
+    font-family: Poppins, sans-serif;
+    text-align: end;
+    border: .25rem;
+    border-style:dotted;
+    border-color: #1d3647;
+}

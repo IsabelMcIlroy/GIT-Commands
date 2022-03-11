@@ -29,10 +29,10 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#setup">Setup</a>
+                    <a href="#g&c">Getting&Creating</a>
                 </li>
                 <li>
-                    <a href="#basics">Basics</a>
+                    <a href="#s&s">Stage&Snapshot</a>
                 </li>
                 <li>
                     <a href="#b&m">Branch&Merge</a>
@@ -50,12 +50,11 @@
     <!--Setup-->
     <div class="margins" id="setup">
         <h3>
-            Setup
+            Getting & Creating
         </h3>
         <ul>
-        <li>git </li>
-        <li>git </li>
-        <li>git </li>
+        <li>git init --> Initializes an existing directory as a Git repository</li>
+        <li>git clone [url] --> retrieves an entire repository from a local via url</li>
         </ul>
     </div>
     
@@ -63,51 +62,67 @@
     <!--Basics-->
     <div class="margins" id="basics">
         <h3>
-            Basicis
+            Stage & Snapshot
         </h3>
         <ul>
-        <li>git </li>
-        <li>git </li>
-        <li>git </li>
+        <li>git status --> shows modified files in your working directory which are staged for the next commit</li>
+        <li>git add [file] --> adds a file as it is to your next commit (stage)</li>
+        <li>git reset [file] --> unstage changes to a file while retaining the changes in your working directory</li>
+        <li>git add [file name] --> to add a single file to GitHub</li>
+        <li>git diff --> see what changes have been made since you last staged</li>
+        <li>git commit -m "[descriptive message]" --> commit your staged conent as a new commit snapshot</li>
         </ul>
     </div>
     
     <!--Branch & Merge-->
     <div class="margins" id="b&m">
         <h3>
-            Branch&Merge
+            Branch & Merge
         </h3>
         <ul>
-        <li>git </li>
-        <li>git </li>
-        <li>git </li>
+        <li>git branch --> lists all your branches an * will indicate your current branch </li>
+        <li>git branch-a --> lists all branches, local and remote</li>
+        <li>git branch [branch-name] --> creates a new branch in the current commit</li>
+        <li>git checkout --> switch to another branch and check it out intor your working directory </li>
+        <li>git log --> show all commits in your current branches history</li>
+        <li>git stash --> stash changes in a dirty working directory (temporary commits)</li>
+        <li>git stash clear --> removes all stashed entries</li>
         </ul>
     </div>
  
     <!--Share & Update-->
     <div class="margins" id="s&u">
          <h3>
-             Share&Update
+             Share & Update
         </h3>
         <ul>
-            <li>git </li>
-            <li>git </li>
-            <li>git </li>
+            <li>git push origin [branch name] --> pushes changes in current branch to your remote repository</li>
+            <li>git push --> pushes changes to remote repository (remebered branch)</li>
+            <li>git pull --> updates local repository to the newest commit</li>
+            <li>git pull origin [branch name] --> pulls changes from remote repository</li>
         </ul>
     </div>
 
     <!--Inspect & Compare-->
     <div class="margins" id="i&c">
         <h3>
-            Inspect&Compare
+            Inspect & Compare
         </h3>
         <ul>
-        <li>git </li>
-        <li>git </li>
-        <li>git </li>
+        <li>git log --> shows the commit history of the currently active branch</li>
+        <li>git log --follow [file] --> show the commits that changed a file, even across file renames</li>
+        <li>git how [SHA] --> show any object in Git in human-readable format</li>
+        <li>git config --> sets automatic command line colouring for reviewing</li>
         </ul>
     </div>
     
+    <!--Footer-->
+    <div class="margins">
+        <p>
+            Isabel McIlroy --> March 2022
+        </p>
+    </div>
+
 </body>
 
 </html>
