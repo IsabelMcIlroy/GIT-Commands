@@ -36,13 +36,34 @@ li {
     font-family: Poppins, sans-serif;
     }
 
-nav ul a{
+nav a{
     text-decoration: none;
-    text-decoration-color: beige;
-    text-emphasis-color: beige;
+    color:black;
+
 }
 
+nav a:visited{
+    text-decoration: none;
+    color: black;
+}
 
+nav a:active{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav ul{
+    list-style-image:url('Images/arrow.svg');
+}
 
 p {
     font-family: Poppins, sans-serif;
@@ -50,6 +71,8 @@ p {
     text-align: end;
     
 }
+
+
 
 @media screen and (min-width: 768px)
 {
@@ -77,12 +100,15 @@ h3{
     }
 }
 
-@media screen and (min-width: 992px)
+@media screen and (min-width: 1040px)
 {
     nav li{display: inline;
-        background-color: cadetblue;
-        padding:.25em;
+        margin: .1rem;
+        padding: .1rem;
+        
         border-radius: 1em;
+        border-color: black;
+        border-style:solid;
             }
 
 }
