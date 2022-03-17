@@ -65,6 +65,13 @@ nav ul{
     list-style-image:url('Images/arrow.svg');
 }
 
+.rocket{
+    position:fixed;
+    left: 0;
+   bottom: 0;
+
+}
+
 p {
     font-family: Poppins, sans-serif;
     color:darkgrey;
