@@ -28,9 +28,16 @@ h1, h2, h3, h4{
         background-image: url(Images/catInSpace.svg);
         background-size: 100%;
         background-repeat: no-repeat;
+        margin-left: 6rem;
+        margin-right: 2rem;
+        margin-top: 6rem;
         }
 
-
+        .margins{
+            margin-left: 8rem;
+            margin-right:2rem;
+            margin-top: 1rem;
+        }
 
 li {
     font-family: Poppins, sans-serif;
@@ -94,17 +101,8 @@ h2{
 h3{
     font-size: 2rem;
 }
-.HeroSection{
-    margin-left: 6rem;
-    margin-right: 2rem;
-    margin-top: 6rem;
+
     
-    }
-    .margins{
-        margin-left: 8rem;
-        margin-right:2rem;
-        margin-top: 1rem;
-    }
 }
 
 @media screen and (min-width: 1040px)
