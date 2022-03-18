@@ -11,4 +11,4 @@
 # Demo Site
 https://isabelmcilroy.github.io/GIT-Commands/ 
 
-![Screenshot](images/Capture.jpg)
+![Screenshot](Images/Capture.jpg)
